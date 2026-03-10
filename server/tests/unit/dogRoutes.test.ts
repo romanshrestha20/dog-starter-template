@@ -7,8 +7,8 @@ vi.mock("../controllers/dogController", () => ({
   getDogImage: vi.fn(),
 }));
 
-import dogRoutes from "../routes/dogRoutes";
-import { getDogImage } from "../controllers/dogController";
+import dogRoutes from "../../routes/dogRoutes";
+import { getDogImage } from "../../controllers/dogController";
 
 const app = express();
 app.use(express.json());

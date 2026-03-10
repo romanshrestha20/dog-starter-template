@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
-import { getRandomDogImage } from "../services/dogService";
+import { getRandomDogImage } from "../../services/dogService";
 
 describe("Dog Service", () => {
 

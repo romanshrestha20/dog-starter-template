@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
-import { getDogImage } from "../controllers/dogController";
-import * as dogService from "../services/dogService";
+import { getDogImage } from "../../controllers/dogController";
+import * as dogService from "../../services/dogService";
 
 describe("Dog Controller", () => {
 
