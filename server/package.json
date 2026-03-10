@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Dog API Server",
-  "main": "server.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "tsx server.ts",
-    "dev": "tsx watch server.ts",
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts",
     "build": "tsc",
     "test": "vitest",
     "test:ui": "vitest --ui",
